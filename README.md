@@ -13,9 +13,9 @@ Load Balancer Created target group Registered EC2 instances Created Application 
 
  
 
-Current Situation: Backend successfully set up on several EC2 instances The connection to MongoDB Atlas is working. Application can be accessed locally with curl Set up and created the Load Balancer Implemented scaling architecture 
+**Current Situation:** Backend successfully set up on several EC2 instances The connection to MongoDB Atlas is working. Application can be accessed locally with curl Set up and created the Load Balancer Implemented scaling architecture 
 
-But: 
+**But: **
 
 Health checks on the load balancer still don't work. ALB DNS doesn't let me fully access the application 
 
@@ -28,16 +28,16 @@ Both instances connected to MongoDB Atlas
 
  
 
-Screenshots (To be attached) 
+**Screenshots (To be attached) **
 
-EC2 instances running 
+->EC2 instances running 
 
-PM2 process status 
+->PM2 process status 
 
-MongoDB connection 
+->MongoDB connection 
 
-Target group configuration 
+->Target group configuration 
 
-Load balancer configuration 
+->Load balancer configuration 
 
 curl output showing backend response 
